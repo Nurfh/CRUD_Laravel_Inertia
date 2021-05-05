@@ -13,10 +13,10 @@
             <tr v-for="(list, index) in lists" :key="index">
               <td>{{ list.list }}</td>
               <td>
-                <button class="btn btn-warning" @click="editList(list)">
+                <button class="btn btn-warning" @click="editList(list)"><i class="far fa-edit"></i>
                   Edit
                 </button>
-                <button class="btn btn-danger" @click="deleteList(list)">
+                <button class="btn btn-danger" @click="deleteList(list)"><i class="far fa-trash-alt"></i>
                   Delete
                 </button>
               </td>

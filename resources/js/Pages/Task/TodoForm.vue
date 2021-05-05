@@ -18,7 +18,7 @@
                         <button
                             class="btn btn-primary"
                             type="submit"
-                            :disabled="form.processing">Add Task</button>
+                            :disabled="form.processing"><i class="fas fa-plus"></i> Add Task</button>
                     </form>
                 </div>
             </div>

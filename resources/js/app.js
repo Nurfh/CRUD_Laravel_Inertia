@@ -4,6 +4,9 @@ require('./bootstrap');
 import Vue from 'vue';
 import { App as InertiaApp, plugin as InertiaPlugin } from '@inertiajs/inertia-vue';
 import PortalVue from 'portal-vue';
+import '@fortawesome/fontawesome-free/css/all.css';
+import '@fortawesome/fontawesome-free/js/all.js';
+
 
 Vue.mixin({ methods: { route } });
 Vue.use(InertiaPlugin);
