@@ -17,12 +17,12 @@
 
                             <!-- Navigation Links -->
                             <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                                <jet-nav-link
+                                <jet-nav-link class="text-decoration-none"
                                 :href="route('dashboard')"
                                 :active="route().current('dashboard')">Dashboard
                                 </jet-nav-link>
 
-                                <jet-nav-link
+                                <jet-nav-link class="text-decoration-none"
                                 :href="route('tdlists.index')"
                                 :active="route().current('tdlists.index')">Daily Task
                                 </jet-nav-link>

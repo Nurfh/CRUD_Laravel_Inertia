@@ -38255,6 +38255,7 @@ var render = function() {
                         _c(
                           "jet-nav-link",
                           {
+                            staticClass: "text-decoration-none",
                             attrs: {
                               href: _vm.route("dashboard"),
                               active: _vm.route().current("dashboard")
@@ -38266,6 +38267,7 @@ var render = function() {
                         _c(
                           "jet-nav-link",
                           {
+                            staticClass: "text-decoration-none",
                             attrs: {
                               href: _vm.route("tdlists.index"),
                               active: _vm.route().current("tdlists.index")
