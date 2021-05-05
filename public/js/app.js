@@ -7673,6 +7673,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 
 
@@ -38653,6 +38654,7 @@ var render = function() {
                                     _c(
                                       "jet-dropdown-link",
                                       {
+                                        staticClass: "text-decoration-none",
                                         attrs: {
                                           href: _vm.route("profile.show")
                                         }
