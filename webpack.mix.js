@@ -25,8 +25,9 @@ if (mix.inProduction()) {
 
 //browsersync setting
 //todo-inertia is a database name
+// browsersync setting
 mix.browserSync({
-    proxy:'todo_inertia.test',
-    host:'todo_inertia.test',
-    open:'external',
-})
+    proxy: 'todo-inertia.test',
+    host: 'todo-inertia.test',
+    open: 'external',
+});

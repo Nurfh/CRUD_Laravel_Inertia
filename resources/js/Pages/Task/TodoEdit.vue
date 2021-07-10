@@ -21,8 +21,7 @@
             class="btn btn-info text-white"
             type="submit"
             :disabled="form.processing"
-          >
-            Update Task
+          >Update Task
           </button>
         </form>
       </div>

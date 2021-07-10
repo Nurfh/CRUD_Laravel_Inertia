@@ -9706,7 +9706,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: {
     list: Object
@@ -9733,7 +9732,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-//
 //
 //
 //
@@ -42281,7 +42279,7 @@ var render = function() {
                   staticClass: "btn btn-info text-white",
                   attrs: { type: "submit", disabled: _vm.form.processing }
                 },
-                [_vm._v("\n          Update Task\n        ")]
+                [_vm._v("Update Task\n        ")]
               )
             ]
           )

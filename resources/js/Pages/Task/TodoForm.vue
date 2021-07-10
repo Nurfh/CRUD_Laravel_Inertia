@@ -5,7 +5,6 @@
                     <form
                     @submit.prevent="form.post(route('tdlists.store'),{onSuccess:() => form.reset(),
                     })"
-
                     >
                         <input
                         class="form-control"

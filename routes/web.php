@@ -33,7 +33,7 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
         return Inertia::render('Dashboard');
     })->name('dashboard');
 
-    //you can put any name but better follow the controller name (small letter)
+    //you can put any name but better follow the controller name (small letter) with s
     Route::resource('tdlists', TdlistController::class);
 });
 
